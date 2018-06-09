@@ -1,0 +1,13 @@
+body {
+	margin : 0px;
+}
+
+.border-test {
+	border: solid 1px red;
+}
+
+.profile-pic {
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
