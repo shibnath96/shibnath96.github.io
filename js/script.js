@@ -10,7 +10,7 @@ $(function() {
 	} else {
 		$("#siteBlocker").show();
 		$("#profileMsg").hide();
-		$("title").text('access denied');
+		$("title").text('Access denied!');
 
 	}
 
