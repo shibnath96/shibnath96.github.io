@@ -2,15 +2,16 @@ $(function() {
 
 	var ref = window.location.search;
 
-	console.log(ref);
-
 	if ( ref === "" ) {
-		$(profileMsg).show();
-		$(siteBlocker).hide();
+		$("#profileMsg").show();
+		$("#siteBlocker").hide();
+		$("title").text('Shibnath Salui | Profile');
 
 	} else {
-		$(siteBlocker).show();
-		$(profileMsg).hide();
+		$("#siteBlocker").show();
+		$("#profileMsg").hide();
+		$("title").text('access denied');
+
 	}
 
 })
